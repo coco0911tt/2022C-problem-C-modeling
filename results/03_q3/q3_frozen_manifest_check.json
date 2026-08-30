@@ -1,0 +1,29 @@
+{
+  "manifest_loaded": true,
+  "file_hash_checks": {
+    "final_pipeline.joblib": {
+      "expected": "c674c972053472c56a8ab0aa8a4f607ce5a215c3b456cf35f4cf18f86ae3a3b6",
+      "actual": "c674c972053472c56a8ab0aa8a4f607ce5a215c3b456cf35f4cf18f86ae3a3b6",
+      "match": true
+    },
+    "sensitivity_pipelines.joblib": {
+      "expected": "291bf65d66006ab1e9031ea4dd07be6102da6f24c1180a5a573524a72b103d30",
+      "actual": "291bf65d66006ab1e9031ea4dd07be6102da6f24c1180a5a573524a72b103d30",
+      "match": true
+    },
+    "bootstrap_pipelines.joblib": {
+      "expected": "aaa4f030d73b00dd8c51de565f27f18526f4b37116eeed216090d7faec8bd9cc",
+      "actual": "aaa4f030d73b00dd8c51de565f27f18526f4b37116eeed216090d7faec8bd9cc",
+      "match": true
+    }
+  },
+  "all_hashes_match": true,
+  "frozen_at_utc": "2026-08-30T15:26:47.318968+00:00",
+  "table3_first_read_utc": "2026-08-30T15:30:27.305313+00:00",
+  "freeze_precedes_table3_read": true,
+  "unknown_rows": 8,
+  "all_unknown_sums_valid": true,
+  "bootstrap_models_loaded": 1000,
+  "bootstrap_prediction_failures": 0,
+  "no_unknown_accuracy_field": true
+}

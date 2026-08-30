@@ -1,0 +1,9 @@
+﻿task_id,repeat_id,fold_id,method,group_key,evaluation_unit,n_train,n_valid,data_loss_rate,downstream_metric,downstream_value,ci_low,ci_high,delta_vs_group_median,leakage_check,fit_success,failure_reason
+preprocessing,aggregate,mask_validation,global_mean,glass_type,artificially_masked_observed_values,67,6200,0.0,masked_mae_pct_lower_is_better,4.781450046535484,0.1559525353016687,23.61016964285714,0.9537124969323094,pass_training_only_mask_fit,1.0,
+preprocessing,aggregate,mask_validation,global_median,glass_type,artificially_masked_observed_values,67,6200,0.0,masked_mae_pct_lower_is_better,4.566534424603175,0.1617,23.50821428571429,0.7387968749999998,pass_training_only_mask_fit,1.0,
+preprocessing,aggregate,mask_validation,knn_k5,glass_type,artificially_masked_observed_values,67,6200,0.0,masked_mae_pct_lower_is_better,4.169719285714286,0.0699499999999999,33.73459285714286,0.3419817361111108,pass_training_only_mask_fit,1.0,
+preprocessing,aggregate,mask_validation,legal_group_median,glass_type,artificially_masked_observed_values,67,6200,0.0,masked_mae_pct_lower_is_better,3.827737549603175,0.1258,17.229583333333338,0.0,pass_training_only_mask_fit,1.0,
+preprocessing,aggregate,mask_validation,zero_fill,glass_type,artificially_masked_observed_values,67,6200,0.0,masked_mae_pct_lower_is_better,8.966726884920634,0.3237124999999999,47.99689285714287,5.13898933531746,pass_training_only_mask_fit,1.0,
+q2_1,single_5fold_sensitivity,all,legal_group_median,surface_weathering,artifact,56,56,0.0,balanced_accuracy_higher_is_better,0.7875,,,0.0,training_fold_fit_only,1.0,
+q2_1,single_5fold_sensitivity,all,global_median,surface_weathering,artifact,56,56,0.0,balanced_accuracy_higher_is_better,0.8,,,0.012500000000000067,training_fold_fit_only,1.0,
+q2_1,single_5fold_sensitivity,all,knn_k5,surface_weathering,artifact,56,56,0.0,balanced_accuracy_higher_is_better,0.8,,,0.012500000000000067,training_fold_fit_only,1.0,

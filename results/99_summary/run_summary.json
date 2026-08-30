@@ -1,0 +1,12 @@
+{
+  "python": "3.14.6",
+  "reproducibility_passed": true,
+  "formal_csv_count": 64,
+  "pdf_figure_count": 35,
+  "claim_count": 18,
+  "four_part_rows": 32,
+  "calibration_enabled_models": [],
+  "stable_subclass_supported_count": 0,
+  "unknown_reject_count": 3,
+  "core_differential_edge_count": 4
+}

@@ -1,0 +1,21 @@
+{
+  "table1_rows": 58,
+  "table2_rows": 69,
+  "valid_known_points": 67,
+  "valid_known_artifacts": 56,
+  "invalid_points": [
+    {
+      "sample_point": "15",
+      "raw_component_sum_pct": 79.47
+    },
+    {
+      "sample_point": "17",
+      "raw_component_sum_pct": 71.89
+    }
+  ],
+  "multiple_point_artifacts": 11,
+  "table3_read": false,
+  "all_artifact_ids_unique_table1": true,
+  "all_table2_ids_matched": true,
+  "closure_max_error": 5.684341886080802e-14
+}

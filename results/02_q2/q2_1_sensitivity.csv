@@ -1,0 +1,9 @@
+﻿scenario,model,metric,value,brier,fit_success,failure_folds,delta_from_main,label_agreement
+main_weather_group_c0.5,Logistic,balanced_accuracy,0.7875,0.13656154724631803,1,0,0.0,
+zero_c_0.25,Logistic,balanced_accuracy,0.7875,0.13659062437679773,1,0,0.0,
+zero_c_0.75,Logistic,balanced_accuracy,0.7875,0.13654409476994167,1,0,0.0,
+global_median,Logistic,balanced_accuracy,0.8,0.12763641434163886,1,0,0.012500000000000067,
+knn_k5,Logistic,balanced_accuracy,0.8,0.09138285231584778,1,0,0.012500000000000067,
+include_invalid_15_17,Logistic,balanced_accuracy,0.8083333333333333,0.12571722098269833,1,0,0.02083333333333337,
+componentwise_pm_5pct,Logistic,balanced_accuracy,0.7875,0.13584211155226444,1,0,0.0,
+componentwise_pm_10pct,Logistic,balanced_accuracy,0.7875,0.13487665767523893,1,0,0.0,

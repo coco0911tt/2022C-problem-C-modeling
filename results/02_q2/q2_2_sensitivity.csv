@@ -1,0 +1,17 @@
+﻿scenario,glass_type,k,ari_vs_main,feature_jaccard,conclusion
+main,高钾,2,1.0,1.0,stable
+zero_c_0.25,高钾,2,1.0,0.8,stable
+zero_c_0.75,高钾,2,1.0,1.0,stable
+r_threshold_0.4,高钾,2,1.0,1.0,stable
+r_threshold_0.6,高钾,2,0.3389830508474576,0.6,sensitive
+include_invalid_15_17,高钾,2,1.0,1.0,stable
+componentwise_pm_5pct,高钾,2,1.0,0.8,stable
+componentwise_pm_10pct,高钾,2,1.0,0.8,stable
+main,铅钡,6,1.0,1.0,stable
+zero_c_0.25,铅钡,6,1.0,1.0,stable
+zero_c_0.75,铅钡,6,1.0,1.0,stable
+r_threshold_0.4,铅钡,6,0.574274139095206,0.8,sensitive
+r_threshold_0.6,铅钡,6,0.32228715632886173,0.625,sensitive
+include_invalid_15_17,铅钡,6,1.0,1.0,stable
+componentwise_pm_5pct,铅钡,6,0.19509945988670793,0.7777777777777778,sensitive
+componentwise_pm_10pct,铅钡,6,0.27478305475997095,0.7777777777777778,sensitive

@@ -1,0 +1,3 @@
+﻿glass_type,effect_norm,effect_ci_low,effect_ci_high,permutation_p,model_formula,covariates_used,bootstrap_success,bootstrap_failure
+高钾,2.7440837777689344,2.2618785527451775,3.5197330593958926,0.00029997000299970003,ILR ~ point_weathering,none_due_small_sample_preregistered_rule,1000,37
+铅钡,1.9422400470497325,1.5029506770695464,2.592445914363799,9.999000099990002e-05,ILR ~ point_weathering,none_due_small_sample_preregistered_rule,1000,54

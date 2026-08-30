@@ -1,0 +1,19 @@
+﻿claim_id,task_id,claim_text_placeholder,evidence_file,evidence_filter,estimate_field,interval_field,sample_unit,validation_protocol,sensitivity_status,stability_status,allowed_wording,forbidden_wording
+q1_1_glass_type,1.1,glass_type与风化的文物级关联,results/01_q1/q1_1_association.csv,attribute=glass_type,cramer_v_corrected,v_ci_low;v_ci_high;p_fdr,文物,精确/Monte Carlo检验+文物Bootstrap,已运行,已运行,按p值、效应量和区间限定表述,因果关系
+q1_1_pattern,1.1,pattern与风化的文物级关联,results/01_q1/q1_1_association.csv,attribute=pattern,cramer_v_corrected,v_ci_low;v_ci_high;p_fdr,文物,精确/Monte Carlo检验+文物Bootstrap,已运行,已运行,按p值、效应量和区间限定表述,因果关系
+q1_1_color,1.1,color与风化的文物级关联,results/01_q1/q1_1_association.csv,attribute=color,cramer_v_corrected,v_ci_low;v_ci_high;p_fdr,文物,精确/Monte Carlo检验+文物Bootstrap,已运行,已运行,按p值、效应量和区间限定表述,因果关系
+q1_2_高钾,1.2,高钾类风化组成整体变化,results/01_q1/q1_2_overall_effect.csv,glass_type=高钾,effect_norm,effect_ci_low;effect_ci_high;permutation_p,文物加权点位,类型分层ILR+文物置换/Bootstrap,已运行,已运行,统计组成差异,化学因果机制
+q1_2_铅钡,1.2,铅钡类风化组成整体变化,results/01_q1/q1_2_overall_effect.csv,glass_type=铅钡,effect_norm,effect_ci_low;effect_ci_high;permutation_p,文物加权点位,类型分层ILR+文物置换/Bootstrap,已运行,已运行,统计组成差异,化学因果机制
+q1_3_counterfactual,1.3,对32个风化有效点生成反事实未风化组成,results/01_q1/q1_3_counterfactual_wide.csv,all,counterfactual component columns,results/01_q1/q1_3_counterfactual_long.csv,风化采样点,冻结1.2效应反向位移+1000次传播,已运行,已运行,模型反事实估计,真实恢复值或恢复RMSE
+q2_1_selected,2.1,冻结模型Logistic的文物级样本外表现,results/02_q2/q2_1_model_metrics.csv,model=Logistic,mean balanced_accuracy=0.782500,20次重复分布,文物,5折×20重复嵌套分组CV,已运行,已运行,样本外估计,训练准确率或保证准确
+q2_2_铅钡,2.2,铅钡稳定亚类支持状态=0,results/02_q2/q2_2_subclasses.csv,glass_type=铅钡,stable_subclass_supported,q2_2_cluster_metrics.csv;q2_2_bootstrap_stability.csv,文物,Ward/KMeans/GMM+预测强度+1000次Bootstrap,已运行,已运行,未支持稳定亚类时仅称探索性分组,聚类准确率
+q2_2_高钾,2.2,高钾稳定亚类支持状态=0,results/02_q2/q2_2_subclasses.csv,glass_type=高钾,stable_subclass_supported,q2_2_cluster_metrics.csv;q2_2_bootstrap_stability.csv,文物,Ward/KMeans/GMM+预测强度+1000次Bootstrap,已运行,已运行,未支持稳定亚类时仅称探索性分组,聚类准确率
+q3_A1,3,A1倾向高钾，拒识=1,results/03_q3/q3_unknown_predictions.csv,unknown_id=A1,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A2,3,A2倾向铅钡，拒识=0,results/03_q3/q3_unknown_predictions.csv,unknown_id=A2,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A3,3,A3倾向铅钡，拒识=1,results/03_q3/q3_unknown_predictions.csv,unknown_id=A3,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A4,3,A4倾向铅钡，拒识=0,results/03_q3/q3_unknown_predictions.csv,unknown_id=A4,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A5,3,A5倾向高钾，拒识=1,results/03_q3/q3_unknown_predictions.csv,unknown_id=A5,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A6,3,A6倾向铅钡，拒识=0,results/03_q3/q3_unknown_predictions.csv,unknown_id=A6,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A7,3,A7倾向铅钡，拒识=0,results/03_q3/q3_unknown_predictions.csv,unknown_id=A7,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q3_A8,3,A8倾向铅钡，拒识=0,results/03_q3/q3_unknown_predictions.csv,unknown_id=A8,probability_lead_barium,prob_ci_low;prob_ci_high,未知样品,冻结管线+1000 Bootstrap+适用域,已运行,已运行,倾向/拒识并报告区间,未知样品真值准确率
+q4_core_diff,4,联合门槛下核心差异边数量=4,results/04_q4/q4_differential_edges.csv,core_differential_edge=1,delta,permutation_p;p_fdr;direction_frequency,文物,1000次Bootstrap+10000次文物置换+BH-FDR,已运行,已运行,统计比例关系差异,反应、工艺或因果路径

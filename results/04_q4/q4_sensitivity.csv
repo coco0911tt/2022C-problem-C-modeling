@@ -1,0 +1,15 @@
+﻿scenario,edge_type,retained_core_edges,edge_jaccard,sign_agreement,conclusion_grade
+zero_c_0.25,高钾,7,0.7777777777777778,1.0,stable
+zero_c_0.75,高钾,7,0.7777777777777778,1.0,stable
+detection_0.20,高钾,7,0.6363636363636364,1.0,sensitive
+detection_0.40,高钾,7,0.7777777777777778,1.0,stable
+edge_threshold_0.40,高钾,7,0.5,1.0,sensitive
+edge_threshold_0.60,高钾,7,1.0,1.0,stable
+include_invalid_15_17,高钾,7,0.7777777777777778,0.9777777777777777,stable
+zero_c_0.25,铅钡,2,0.4,1.0,sensitive
+zero_c_0.75,铅钡,2,0.4,1.0,sensitive
+detection_0.20,铅钡,2,0.4,1.0,sensitive
+detection_0.40,铅钡,2,0.4,1.0,sensitive
+edge_threshold_0.40,铅钡,2,0.25,1.0,sensitive
+edge_threshold_0.60,铅钡,1,0.5,1.0,sensitive
+include_invalid_15_17,铅钡,2,0.4,1.0,sensitive

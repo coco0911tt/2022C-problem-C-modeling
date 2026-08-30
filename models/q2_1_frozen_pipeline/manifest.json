@@ -1,0 +1,126 @@
+{
+  "frozen_at_utc": "2026-08-30T15:38:57.309136+00:00",
+  "selected_model": "Logistic",
+  "selection_rule": "one_standard_error_then_brier_and_simplicity",
+  "one_se": 0.008219340958341715,
+  "input_xlsx_sha256": "ffb82a8e209a005f26883e115de3ddea42ab6e0a34986d312a52a3cea6b1063c",
+  "table3_read_before_freeze": false,
+  "active_components": [
+    "SiO2",
+    "Na2O",
+    "K2O",
+    "CaO",
+    "MgO",
+    "Al2O3",
+    "Fe2O3",
+    "CuO",
+    "PbO",
+    "BaO",
+    "P2O5",
+    "SrO",
+    "SnO2",
+    "SO2"
+  ],
+  "group_key": "surface_weathering",
+  "zero_c": 0.5,
+  "balance_library": [
+    {
+      "name": "钾_相对_铅钡",
+      "numerator": [
+        "K2O"
+      ],
+      "denominator": [
+        "PbO",
+        "BaO"
+      ],
+      "interpretation": "钾系助熔成分相对于铅钡重金属成分"
+    },
+    {
+      "name": "铅钡_相对_硅铝",
+      "numerator": [
+        "PbO",
+        "BaO"
+      ],
+      "denominator": [
+        "SiO2",
+        "Al2O3"
+      ],
+      "interpretation": "铅钡组分相对于硅铝骨架"
+    },
+    {
+      "name": "硅铝_相对_总助熔",
+      "numerator": [
+        "SiO2",
+        "Al2O3"
+      ],
+      "denominator": [
+        "Na2O",
+        "K2O",
+        "CaO",
+        "MgO",
+        "PbO",
+        "BaO"
+      ],
+      "interpretation": "玻璃骨架相对于常见助熔/稳定组分"
+    }
+  ],
+  "final_configs": {
+    "Logistic": {
+      "C": 10,
+      "class_weight": "none",
+      "features": [
+        "铅钡_相对_硅铝",
+        "硅铝_相对_总助熔"
+      ],
+      "threshold": 0.5
+    },
+    "CART": {
+      "ccp_alpha": 0.0,
+      "class_weight": "none",
+      "features": [
+        "钾_相对_铅钡",
+        "铅钡_相对_硅铝",
+        "硅铝_相对_总助熔"
+      ],
+      "max_depth": 1,
+      "min_samples_leaf": 6,
+      "threshold": 0.5
+    },
+    "LDA": {
+      "features": [
+        "钾_相对_铅钡",
+        "铅钡_相对_硅铝",
+        "硅铝_相对_总助熔"
+      ],
+      "shrinkage": "auto",
+      "threshold": 0.5
+    }
+  },
+  "calibration": {
+    "CART": {
+      "enabled": false,
+      "raw_threshold": 0.5,
+      "frozen_threshold": 0.5,
+      "reason": "disabled_gate_not_met"
+    },
+    "LDA": {
+      "enabled": false,
+      "raw_threshold": 0.5,
+      "frozen_threshold": 0.5,
+      "reason": "disabled_gate_not_met"
+    },
+    "Logistic": {
+      "enabled": false,
+      "raw_threshold": 0.5,
+      "frozen_threshold": 0.5,
+      "reason": "disabled_gate_not_met"
+    }
+  },
+  "bootstrap_success": 1000,
+  "bootstrap_failure": 4,
+  "files": {
+    "final_pipeline.joblib": "2e27a525fc135a8c7874546ead0887c9f897b84aee50db6684f05a7ff2c242d3",
+    "sensitivity_pipelines.joblib": "291bf65d66006ab1e9031ea4dd07be6102da6f24c1180a5a573524a72b103d30",
+    "bootstrap_pipelines.joblib": "aaa4f030d73b00dd8c51de565f27f18526f4b37116eeed216090d7faec8bd9cc"
+  }
+}

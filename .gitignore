@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local plotting/cache state
+.matplotlib/
+
+# Editors and operating-system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example

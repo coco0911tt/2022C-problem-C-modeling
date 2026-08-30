@@ -1,0 +1,13 @@
+{
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "scipy": "1.18.1",
+  "scikit_learn": "1.9.0",
+  "statsmodels": "0.15.0",
+  "matplotlib": "3.11.1",
+  "source_xlsx": "E:\\2022C\\C题\\附件.xlsx",
+  "source_xlsx_sha256": "ffb82a8e209a005f26883e115de3ddea42ab6e0a34986d312a52a3cea6b1063c",
+  "checklist_sha256": "2a7dc01dcbbb9ca3bd08fc8e253786c403bf6106c6381fb0dc141684adf4066e"
+}

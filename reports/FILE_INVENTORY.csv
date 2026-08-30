@@ -1,0 +1,198 @@
+﻿relative_path,file_type,size_bytes,purpose,properties,checklist_mapping
+code/.gitkeep,none,1,可复现分析脚本,,总体/对应脚本编号
+code/00_ingest_preprocess.py,.py,14878,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/10_q1_1_association.py,.py,14811,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/11_q1_2_weather_effect.py,.py,21258,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/12_q1_3_counterfactual.py,.py,18744,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/20_q2_1_classification.py,.py,37982,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/21_q2_2_subclasses.py,.py,28408,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/30_q3_unknown.py,.py,17872,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/40_q4_network.py,.py,23007,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/98_snapshot_hashes.py,.py,1093,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/99_finalize.py,.py,25721,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/common.py,.py,27345,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/run_all.py,.py,1576,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+code/test_common.py,.py,1288,可复现分析脚本,UTF-8 Python源代码,总体/对应脚本编号
+config/.gitkeep,none,1,统一预注册配置,,0.9/公共配置
+config/config.json,.json,600,统一预注册配置,UTF-8 JSON元数据/审计,0.9/公共配置
+data/.gitkeep,none,1,脚本生成的规范化中间数据（非原始附件）,,公共数据口径
+data/canonical_table1.csv,.csv,2294,脚本生成的规范化中间数据（非原始附件）,"58行×6列；字段=artifact_id,pattern,glass_type,color,surface_weathering,raw_row_id",公共数据口径
+data/canonical_table2.csv,.csv,14280,脚本生成的规范化中间数据（非原始附件）,"69行×54列；字段=sample_point,SiO2,Na2O,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO,P2O5…",公共数据口径
+data/canonical_table3.csv,.csv,1640,脚本生成的规范化中间数据（非原始附件）,"8行×48列；字段=unknown_id,surface_weathering,SiO2,Na2O,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO…",公共数据口径
+data/known_points_valid.csv,.csv,13833,脚本生成的规范化中间数据（非原始附件）,"67行×54列；字段=sample_point,SiO2,Na2O,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO,P2O5…",公共数据口径
+figures/.gitkeep,none,1,论文可用矢量PDF图,,对应子问题图表
+figures/q1_1_color_weathering_stacked.pdf,.pdf,20951,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_1_cramers_v_forest.pdf,.pdf,18130,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_1_glass_type_weathering_stacked.pdf,.pdf,18766,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_1_logistic_or_forest.pdf,.pdf,25053,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_1_pattern_weathering_stacked.pdf,.pdf,15973,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_2_aitchison_pca_weathering.pdf,.pdf,17938,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_2_component_distribution_baseline.pdf,.pdf,22306,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_2_composition_change_intervals.pdf,.pdf,21626,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_2_ilr_effect_forest.pdf,.pdf,19893,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_2_leave_one_artifact_influence.pdf,.pdf,20334,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_3_counterfactual_migration_arrows.pdf,.pdf,23174,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_3_largest_uncertainty_intervals.pdf,.pdf,21071,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_3_observed_vs_counterfactual_dumbbell.pdf,.pdf,26748,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q1_3_uncertainty_ranking.pdf,.pdf,18568,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_1_feature_stability.pdf,.pdf,17784,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_1_frozen_cart_rules.pdf,.pdf,15961,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_1_model_performance_distribution.pdf,.pdf,20853,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_1_oof_probability_strip.pdf,.pdf,16225,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_1_roc_and_calibration.pdf,.pdf,17711,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_1_selected_model_confusion_matrix.pdf,.pdf,20218,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_2_consensus_matrices.pdf,.pdf,24988,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_2_k_metrics_and_stability.pdf,.pdf,27167,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_2_q_artifact_dendrograms.pdf,.pdf,19632,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_2_r_variable_dendrograms.pdf,.pdf,16275,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_2_subclass_profiles_heatmap.pdf,.pdf,24416,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q2_2_subclass_projection.pdf,.pdf,17440,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q3_applicability_projection.pdf,.pdf,17274,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q3_bootstrap_label_frequency.pdf,.pdf,14602,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q3_three_model_consistency.pdf,.pdf,13709,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q3_unknown_probabilities_intervals.pdf,.pdf,20287,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q4_core_differential_network.pdf,.pdf,11099,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q4_core_proportionality_networks.pdf,.pdf,14640,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q4_effect_vs_selection_frequency.pdf,.pdf,17699,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q4_proportionality_heatmaps.pdf,.pdf,26236,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/q4_weathering_adjustment_comparison.pdf,.pdf,18122,论文可用矢量PDF图,矢量PDF；由正式结果或其源CSV生成,对应子问题图表
+figures/source_data/q1_1_color_weathering_stacked.csv,.csv,495,对应论文图的机器生成源数据,"18行×4列；字段=color,surface_weathering,count,proportion",对应图表
+figures/source_data/q1_1_cramers_v_forest.csv,.csv,637,对应论文图的机器生成源数据,"3行×12列；字段=attribute,test_used,statistic,df,p_raw,p_fdr,cramer_v_corrected,v_ci_low,v_ci_high,bootstrap_success_rate,monte_carlo_se,n_artifacts",对应图表
+figures/source_data/q1_1_glass_type_weathering_stacked.csv,.csv,174,对应论文图的机器生成源数据,"4行×4列；字段=glass_type,surface_weathering,count,proportion",对应图表
+figures/source_data/q1_1_logistic_or_forest.csv,.csv,1829,对应论文图的机器生成源数据,"11行×10列；字段=term,reference_level,beta,se,odds_ratio,ci_low,ci_high,p_value,estimator,converged",对应图表
+figures/source_data/q1_1_pattern_weathering_stacked.csv,.csv,188,对应论文图的机器生成源数据,"6行×4列；字段=pattern,surface_weathering,count,proportion",对应图表
+figures/source_data/q1_2_aitchison_pca_weathering.csv,.csv,4433,对应论文图的机器生成源数据,"67行×6列；字段=artifact_id,sample_point,point_weathering,glass_type,pc1,pc2",对应图表
+figures/source_data/q1_2_component_distribution_baseline.csv,.csv,10641,对应论文图的机器生成源数据,"268行×4列；字段=glass_type,component,weathering,pct",对应图表
+figures/source_data/q1_2_composition_change_intervals.csv,.csv,2837,对应论文图的机器生成源数据,"25行×7列；字段=glass_type,component,predicted_unweathered_pct,predicted_weathered_pct,difference_pct_point,ci_low,ci_high",对应图表
+figures/source_data/q1_2_ilr_effect_forest.csv,.csv,4025,对应论文图的机器生成源数据,"23行×12列；字段=glass_type,ilr_coordinate,balance_definition,beta_weathering,boot_se,ci_low,ci_high,p_raw,p_fdr,sign_frequency,n_artifacts,n_points",对应图表
+figures/source_data/q1_2_leave_one_artifact_influence.csv,.csv,2314,对应论文图的机器生成源数据,"56行×6列；字段=glass_type,left_out_artifact,effect_norm,direction_agreement,fit_success,failure_reason",对应图表
+figures/source_data/q1_3_counterfactual_migration_arrows.csv,.csv,19737,对应论文图的机器生成源数据,"64行×18列；字段=sample_point,glass_type,state,ilr_1,ilr_2,ilr_3,ilr_4,ilr_5,ilr_6,ilr_7,ilr_8,ilr_9…",对应图表
+figures/source_data/q1_3_largest_uncertainty_intervals.csv,.csv,3905,对应论文图的机器生成源数据,"30行×12列；字段=artifact_id,sample_point,glass_type,component,observed_weathered_pct,estimated_unweathered_pct,median_pct,ci_low_pct,ci_high_pct,modeled,bootstrap_success,width",对应图表
+figures/source_data/q1_3_observed_vs_counterfactual_dumbbell.csv,.csv,1577,对应论文图的机器生成源数据,"25行×5列；字段=glass_type,component,observed,estimated,abs_change",对应图表
+figures/source_data/q1_3_uncertainty_ranking.csv,.csv,13840,对应论文图的机器生成源数据,"32行×26列；字段=artifact_id,sample_point,glass_type,sum_pct,closure_error,aitchison_uncertainty,nearest_unweathered_distance,nearest_threshold,robust_mahalanobis,robust_threshold,applicability_flag,bootstrap_success…",对应图表
+figures/source_data/q2_1_feature_stability.csv,.csv,293,对应论文图的机器生成源数据,"3行×5列；字段=feature_or_balance,selection_count,coefficient_sign_frequency,median_abs_coefficient,selection_frequency",对应图表
+figures/source_data/q2_1_frozen_cart_rules.csv,.csv,4916,对应论文图的机器生成源数据,"56行×9列；字段=artifact_id,glass_type,true_label,surface_weathering,n_points,missing_count_mean,钾_相对_铅钡,铅钡_相对_硅铝,硅铝_相对_总助熔",对应图表
+figures/source_data/q2_1_model_performance_distribution.csv,.csv,6326,对应论文图的机器生成源数据,"60行×8列；字段=repeat_id,model,balanced_accuracy,macro_f1,roc_auc,brier,calibration_intercept,calibration_slope",对应图表
+figures/source_data/q2_1_oof_probability_strip.csv,.csv,4318,对应论文图的机器生成源数据,"56行×10列；字段=repeat_id,outer_fold,artifact_id,true_label,model,point_probability_mean,artifact_probability,predicted_label,threshold,n_points",对应图表
+figures/source_data/q2_1_roc_and_calibration.csv,.csv,7249,对应论文图的机器生成源数据,"316行×5列；字段=fpr,tpr,panel,predicted_probability,observed_frequency",对应图表
+figures/source_data/q2_1_selected_model_confusion_matrix.csv,.csv,80430,对应论文图的机器生成源数据,"1120行×10列；字段=repeat_id,outer_fold,artifact_id,true_label,model,point_probability_mean,artifact_probability,predicted_label,threshold,n_points",对应图表
+figures/source_data/q2_2_consensus_matrices.csv,.csv,74922,对应论文图的机器生成源数据,"1856行×7列；字段=glass_type,artifact_i,artifact_j,co_cluster_frequency,n_joint_resamples,k,stable_subclass_supported",对应图表
+figures/source_data/q2_2_k_metrics_and_stability.csv,.csv,1847,对应论文图的机器生成源数据,"9行×16列；字段=glass_type,feature_version,method,k,silhouette,calinski_harabasz,davies_bouldin,bic,bootstrap_ari_median,bootstrap_ari_p10,prediction_strength,min_cluster_size…",对应图表
+figures/source_data/q2_2_q_artifact_dendrograms.csv,.csv,5434,对应论文图的机器生成源数据,"56行×10列；字段=artifact_id,glass_type,subclass_label,exploratory_label,selected_k,stable_subclass_supported,assignment_frequency,second_best_frequency,boundary_flag,n_points",对应图表
+figures/source_data/q2_2_r_variable_dendrograms.csv,.csv,2520,对应论文图的机器生成源数据,"25行×7列；字段=glass_type,variable_cluster,component,representative_flag,detection_rate,robust_mad,selection_reason",对应图表
+figures/source_data/q2_2_subclass_profiles_heatmap.csv,.csv,11751,对应论文图的机器生成源数据,"106行×9列；字段=glass_type,subclass_label,component,center_pct,median_pct,q25_pct,q75_pct,n_artifacts,stable_subclass_supported",对应图表
+figures/source_data/q2_2_subclass_projection.csv,.csv,2972,对应论文图的机器生成源数据,"56行×5列；字段=glass_type,artifact_id,pc1,pc2,label",对应图表
+figures/source_data/q3_applicability_projection.csv,.csv,3641,对应论文图的机器生成源数据,"64行×5列；字段=id,pc1,pc2,kind,label",对应图表
+figures/source_data/q3_bootstrap_label_frequency.csv,.csv,2180,对应论文图的机器生成源数据,"8行×19列；字段=unknown_id,weathering,main_model,tendency_label,probability_lead_barium,prob_ci_low,prob_ci_high,cart_label,lda_label,logistic_label,bootstrap_majority_frequency,domain_distance…",对应图表
+figures/source_data/q3_three_model_consistency.csv,.csv,251,对应论文图的机器生成源数据,"8行×4列；字段=unknown_id,logistic_label,cart_label,lda_label",对应图表
+figures/source_data/q3_unknown_probabilities_intervals.csv,.csv,2180,对应论文图的机器生成源数据,"8行×19列；字段=unknown_id,weathering,main_model,tendency_label,probability_lead_barium,prob_ci_low,prob_ci_high,cart_label,lda_label,logistic_label,bootstrap_majority_frequency,domain_distance…",对应图表
+figures/source_data/q4_core_differential_network.csv,.csv,8143,对应论文图的机器生成源数据,"45行×13列；字段=component_j,component_k,rho_high_k,rho_lead_barium,delta,delta_ci_low,delta_ci_high,permutation_p,p_fdr,effect_pass,direction_frequency,core_differential_edge…",对应图表
+figures/source_data/q4_core_proportionality_networks.csv,.csv,13067,对应论文图的机器生成源数据,"100行×10列；字段=glass_type,component_j,component_k,variation_logratio,rho_p,ci_low,ci_high,selection_frequency,direction_frequency,core_edge",对应图表
+figures/source_data/q4_effect_vs_selection_frequency.csv,.csv,13067,对应论文图的机器生成源数据,"100行×10列；字段=glass_type,component_j,component_k,variation_logratio,rho_p,ci_low,ci_high,selection_frequency,direction_frequency,core_edge",对应图表
+figures/source_data/q4_proportionality_heatmaps.csv,.csv,3759,对应论文图的机器生成源数据,"100行×4列；字段=glass_type,component_i,component_j,rho_p",对应图表
+figures/source_data/q4_weathering_adjustment_comparison.csv,.csv,6138,对应论文图的机器生成源数据,"100行×7列；字段=glass_type,component_j,component_k,rho_raw,rho_adjusted,direction_same,selection_frequency_adjusted",对应图表
+logs/.gitkeep,none,1,真实运行日志,,失败透明/复现
+logs/00_ingest_preprocess.log,.log,1650,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/10_q1_1_association.log,.log,50394,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/11_q1_2_weather_effect.log,.log,1434,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/12_q1_3_counterfactual.log,.log,276,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/20_q2_1_classification.log,.log,6090,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/21_q2_2_subclasses.log,.log,2211,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/30_q3_unknown.log,.log,2907,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/40_q4_network.log,.log,1196,真实运行日志,UTF-8运行记录,失败透明/复现
+logs/run_all.log,.log,33541,真实运行日志,UTF-8运行记录,失败透明/复现
+models/.gitkeep,none,1,冻结或中间可序列化模型,,问题1.2/2.1/3
+models/q1_2_weathering_models.joblib,.joblib,658348,冻结或中间可序列化模型,二进制序列化对象；由对应脚本重建,问题1.2/2.1/3
+models/q2_1_frozen_pipeline/bootstrap_pipelines.joblib,.joblib,383938,冻结或中间可序列化模型,二进制序列化对象；由对应脚本重建,问题1.2/2.1/3
+models/q2_1_frozen_pipeline/final_pipeline.joblib,.joblib,6120,冻结或中间可序列化模型,二进制序列化对象；由对应脚本重建,问题1.2/2.1/3
+models/q2_1_frozen_pipeline/FROZEN_BEFORE_TABLE3.txt,.txt,102,冻结或中间可序列化模型,,问题1.2/2.1/3
+models/q2_1_frozen_pipeline/manifest.json,.json,3003,冻结或中间可序列化模型,UTF-8 JSON元数据/审计,问题1.2/2.1/3
+models/q2_1_frozen_pipeline/sensitivity_pipelines.joblib,.joblib,16103,冻结或中间可序列化模型,二进制序列化对象；由对应脚本重建,问题1.2/2.1/3
+plan.md,.md,1560,项目说明或环境文件,UTF-8 Markdown说明,总体
+README.md,.md,1462,项目说明或环境文件,UTF-8 Markdown说明,总体
+reports/.gitkeep,none,1,验收、结果、错误或文件说明报告,,最终交付
+reports/CHECKLIST_COMPLETION_MATRIX.csv,.csv,1058,验收、结果、错误或文件说明报告,"9行×3列；字段=module,status,evidence_or_limit",最终交付
+reports/CHECKLIST_COMPLETION_MATRIX.md,.md,1270,验收、结果、错误或文件说明报告,UTF-8 Markdown说明,最终交付
+reports/ERRORS_AND_LIMITATIONS.md,.md,1977,验收、结果、错误或文件说明报告,UTF-8 Markdown说明,最终交付
+reports/FILE_INVENTORY.csv,.csv,35386,验收、结果、错误或文件说明报告,"197行×6列；字段=relative_path,file_type,size_bytes,purpose,properties,checklist_mapping",最终交付
+reports/pre_rerun_core_hashes.json,.json,7274,验收、结果、错误或文件说明报告,UTF-8 JSON元数据/审计,最终交付
+reports/reproducibility_check.json,.json,563,验收、结果、错误或文件说明报告,UTF-8 JSON元数据/审计,最终交付
+reports/REPRODUCIBILITY_CHECK.md,.md,516,验收、结果、错误或文件说明报告,UTF-8 Markdown说明,最终交付
+reports/RESULTS_REPORT.md,.md,1643,验收、结果、错误或文件说明报告,UTF-8 Markdown说明,最终交付
+requirements-lock.txt,.txt,187,项目说明或环境文件,,总体
+requirements.txt,.txt,94,项目说明或环境文件,,总体
+results/.gitkeep,none,1,项目说明或环境文件,,总体
+results/00_audit/closure_audit.csv,.csv,11792,输入、缺失、闭合、随机性与预处理审计,"134行×6列；字段=task_id,split_id,raw_row_id,closure_sum,closure_error,finite_ilr",统一数据与预处理
+results/00_audit/component_audit.csv,.csv,1224,输入、缺失、闭合、随机性与预处理审计,"14行×12列；字段=component,component_cn,n_records,n_observed,n_missing,missing_rate,n_explicit_zero,min_positive_pct,q25_pct,median_pct,q75_pct,max_pct",统一数据与预处理
+results/00_audit/component_order.json,.json,208,输入、缺失、闭合、随机性与预处理审计,UTF-8 JSON元数据/审计,统一数据与预处理
+results/00_audit/data_dictionary.csv,.csv,2055,输入、缺失、闭合、随机性与预处理审计,"20行×7列；字段=table,original_name,safe_name,dtype,unit,level,allowed_or_meaning",统一数据与预处理
+results/00_audit/environment.json,.json,526,输入、缺失、闭合、随机性与预处理审计,UTF-8 JSON元数据/审计,统一数据与预处理
+results/00_audit/ilr_basis_type_group_full.csv,.csv,2547,输入、缺失、闭合、随机性与预处理审计,"13行×15列；字段=coordinate,SiO2,Na2O,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO,P2O5…",统一数据与预处理
+results/00_audit/ilr_basis_weathering_group_full.csv,.csv,2547,输入、缺失、闭合、随机性与预处理审计,"13行×15列；字段=coordinate,SiO2,Na2O,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO,P2O5…",统一数据与预处理
+results/00_audit/imputation_mask_validation.csv,.csv,157657,输入、缺失、闭合、随机性与预处理审计,"1200行×15列；字段=task_id,repeat_id,fold_id,component,method,mask_rule,mask_rate,n_masked,mae_pct,rmse_pct,median_ae_pct,aitchison_error…",统一数据与预处理
+results/00_audit/imputation_method_comparison.csv,.csv,1934,输入、缺失、闭合、随机性与预处理审计,"8行×17列；字段=task_id,repeat_id,fold_id,method,group_key,evaluation_unit,n_train,n_valid,data_loss_rate,downstream_metric,downstream_value,ci_low…",统一数据与预处理
+results/00_audit/imputation_parameters.csv,.csv,4032,输入、缺失、闭合、随机性与预处理审计,"56行×8列；字段=task_id,split_id,group_name,component,n_observed,median_value,fallback_level,active_feature",统一数据与预处理
+results/00_audit/input_hashes.json,.json,279,输入、缺失、闭合、随机性与预处理审计,UTF-8 JSON元数据/审计,统一数据与预处理
+results/00_audit/point_weathering_audit.csv,.csv,4006,输入、缺失、闭合、随机性与预处理审计,"69行×6列；字段=raw_row_id,artifact_id,sample_point,surface_weathering,point_weathering,weathering_source",统一数据与预处理
+results/00_audit/preprocessing_rationale.csv,.csv,7803,输入、缺失、闭合、随机性与预处理审计,"56行×15列；字段=task_id,split_id,scope,component,group_key,group_level,n_records,n_missing,missing_rate,n_complete_case_retained,complete_case_loss_rate,median_pct…",统一数据与预处理
+results/00_audit/random_seeds.csv,.csv,166,输入、缺失、闭合、随机性与预处理审计,"9行×2列；字段=task_id,seed",统一数据与预处理
+results/00_audit/raw_row_traceability.csv,.csv,3460,输入、缺失、闭合、随机性与预处理审计,"127行×4列；字段=raw_row_id,artifact_id,source_table,sample_point",统一数据与预处理
+results/00_audit/repeated_sampling_audit.csv,.csv,733,输入、缺失、闭合、随机性与预处理审计,"58行×3列；字段=artifact_id,n_sample_points,multiple_points",统一数据与预处理
+results/00_audit/sample_validity.csv,.csv,2891,输入、缺失、闭合、随机性与预处理审计,"69行×6列；字段=raw_row_id,artifact_id,sample_point,raw_component_sum_pct,valid_sum_flag,exclusion_reason",统一数据与预处理
+results/00_audit/schema_and_key_validation.json,.json,485,输入、缺失、闭合、随机性与预处理审计,UTF-8 JSON元数据/审计,统一数据与预处理
+results/00_audit/zero_replacement_parameters.csv,.csv,1722,输入、缺失、闭合、随机性与预处理审计,"28行×6列；字段=task_id,split_id,component,zero_c,delta,training_min_positive",统一数据与预处理
+results/01_q1/q1_1_association.csv,.csv,637,问题1正式数值结果,"3行×12列；字段=attribute,test_used,statistic,df,p_raw,p_fdr,cramer_v_corrected,v_ci_low,v_ci_high,bootstrap_success_rate,monte_carlo_se,n_artifacts",问题1
+results/01_q1/q1_1_contingency.csv,.csv,1261,问题1正式数值结果,"28行×5列；字段=attribute,level,weathering_level,observed_n,expected_n",问题1
+results/01_q1/q1_1_diagnostics.json,.json,282,问题1正式数值结果,UTF-8 JSON元数据/审计,问题1
+results/01_q1/q1_1_logistic.csv,.csv,1982,问题1正式数值结果,"12行×10列；字段=term,reference_level,beta,se,odds_ratio,ci_low,ci_high,p_value,estimator,converged",问题1
+results/01_q1/q1_1_sensitivity.csv,.csv,475,问题1正式数值结果,"5行×7列；字段=scenario,term_or_attribute,estimate,p_or_interval,sign_consistent,leave_one_out_range,n_artifacts",问题1
+results/01_q1/q1_2_bootstrap_failures.csv,.csv,5044,问题1正式数值结果,"91行×3列；字段=glass_type,attempt,reason",问题1
+results/01_q1/q1_2_component_baseline.csv,.csv,3824,问题1正式数值结果,"25行×7列；字段=glass_type,component,test_used,statistic,p_raw,p_fdr,effect_size",问题1
+results/01_q1/q1_2_composition_contrast.csv,.csv,2837,问题1正式数值结果,"25行×7列；字段=glass_type,component,predicted_unweathered_pct,predicted_weathered_pct,difference_pct_point,ci_low,ci_high",问题1
+results/01_q1/q1_2_ilr_basis_铅钡.csv,.csv,2547,问题1正式数值结果,"13行×15列；字段=coordinate,SiO2,Na2O,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO,P2O5…",问题1
+results/01_q1/q1_2_ilr_basis_高钾.csv,.csv,1597,问题1正式数值结果,"10行×12列；字段=coordinate,SiO2,K2O,CaO,MgO,Al2O3,Fe2O3,CuO,PbO,BaO,P2O5,SrO",问题1
+results/01_q1/q1_2_ilr_effects.csv,.csv,4025,问题1正式数值结果,"23行×12列；字段=glass_type,ilr_coordinate,balance_definition,beta_weathering,boot_se,ci_low,ci_high,p_raw,p_fdr,sign_frequency,n_artifacts,n_points",问题1
+results/01_q1/q1_2_leave_one_out.csv,.csv,2314,问题1正式数值结果,"56行×6列；字段=glass_type,left_out_artifact,effect_norm,direction_agreement,fit_success,failure_reason",问题1
+results/01_q1/q1_2_overall_effect.csv,.csv,454,问题1正式数值结果,"2行×9列；字段=glass_type,effect_norm,effect_ci_low,effect_ci_high,permutation_p,model_formula,covariates_used,bootstrap_success,bootstrap_failure",问题1
+results/01_q1/q1_2_residual_diagnostics.csv,.csv,4337,问题1正式数值结果,"23行×10列；字段=glass_type,coordinate,diagnostic,residual_mean,residual_sd,residual_skew,residual_kurtosis,shapiro_p,abs_corr_fitted_residual,flag",问题1
+results/01_q1/q1_2_sensitivity.csv,.csv,795,问题1正式数值结果,"10行×8列；字段=scenario,glass_type,effect_norm,direction_agreement,key_component_agreement,conclusion_grade,fit_success,failure_reason",问题1
+results/01_q1/q1_3_bootstrap_failures.csv,.csv,59,问题1正式数值结果,"0行×5列；字段=iteration,glass_type,sample_point,failure_stage,reason",问题1
+results/01_q1/q1_3_counterfactual_long.csv,.csv,46649,问题1正式数值结果,"448行×11列；字段=artifact_id,sample_point,glass_type,component,observed_weathered_pct,estimated_unweathered_pct,median_pct,ci_low_pct,ci_high_pct,modeled,bootstrap_success",问题1
+results/01_q1/q1_3_counterfactual_wide.csv,.csv,13840,问题1正式数值结果,"32行×26列；字段=artifact_id,sample_point,glass_type,sum_pct,closure_error,aitchison_uncertainty,nearest_unweathered_distance,nearest_threshold,robust_mahalanobis,robust_threshold,applicability_flag,bootstrap_success…",问题1
+results/01_q1/q1_3_model_comparison.csv,.csv,4236,问题1正式数值结果,"64行×6列；字段=sample_point,glass_type,method,distance_to_unweathered_center,within_reference_envelope,numerical_failure",问题1
+results/01_q1/q1_3_sensitivity.csv,.csv,185254,问题1正式数值结果,"2580行×6列；字段=scenario,sample_point,component,estimate,relative_change,rank_or_direction_stable",问题1
+results/02_q2/q2_1_bootstrap_failures.csv,.csv,202,问题2正式数值结果,"4行×2列；字段=attempt,reason",问题2
+results/02_q2/q2_1_calibration_decision.csv,.csv,830,问题2正式数值结果,"3行×14列；字段=model,fit_repeat,evaluation_repeats,raw_brier,calibrated_brier,brier_improvement,raw_balanced_accuracy,calibrated_balanced_accuracy,balanced_accuracy_change,raw_threshold,frozen_threshold,calibration_enabled…",问题2
+results/02_q2/q2_1_coefficients.csv,.csv,22914,问题2正式数值结果,"247行×7列；字段=repeat_id/final,feature_or_balance,numerator_components,denominator_components,coefficient,odds_ratio_per_sd,selected",问题2
+results/02_q2/q2_1_confusion_matrix.csv,.csv,3907,问题2正式数值结果,"240行×5列；字段=model,repeat_id/aggregate,true_label,predicted_label,artifact_count",问题2
+results/02_q2/q2_1_cv_splits.csv,.csv,165264,问题2正式数值结果,"5600行×6列；字段=repeat_id,outer_fold,artifact_id,glass_type,split_role,seed",问题2
+results/02_q2/q2_1_feature_stability.csv,.csv,293,问题2正式数值结果,"3行×5列；字段=feature_or_balance,selection_count,coefficient_sign_frequency,median_abs_coefficient,selection_frequency",问题2
+results/02_q2/q2_1_model_comparison.csv,.csv,1976,问题2正式数值结果,"12行×8列；字段=model_a,model_b,metric,paired_difference,ci_low,ci_high,selection_decision,reason",问题2
+results/02_q2/q2_1_model_metrics.csv,.csv,6326,问题2正式数值结果,"60行×8列；字段=repeat_id,model,balanced_accuracy,macro_f1,roc_auc,brier,calibration_intercept,calibration_slope",问题2
+results/02_q2/q2_1_oof_predictions.csv,.csv,208918,问题2正式数值结果,"3360行×10列；字段=repeat_id,outer_fold,artifact_id,true_label,model,point_probability_mean,artifact_probability,predicted_label,threshold,n_points",问题2
+results/02_q2/q2_1_selected_params.csv,.csv,53930,问题2正式数值结果,"300行×4列；字段=repeat_id,outer_fold,model,config_json",问题2
+results/02_q2/q2_1_sensitivity.csv,.csv,800,问题2正式数值结果,"8行×9列；字段=scenario,model,metric,value,brier,fit_success,failure_folds,delta_from_main,label_agreement",问题2
+results/02_q2/q2_2_bootstrap_stability.csv,.csv,687984,问题2正式数值结果,"9000行×9列；字段=glass_type,method,k,iteration,ari,selected_features,feature_jaccard,failed,failure_reason",问题2
+results/02_q2/q2_2_cluster_metrics.csv,.csv,7107,问题2正式数值结果,"45行×16列；字段=glass_type,feature_version,method,k,silhouette,calinski_harabasz,davies_bouldin,bic,bootstrap_ari_median,bootstrap_ari_p10,prediction_strength,min_cluster_size…",问题2
+results/02_q2/q2_2_consensus_matrix.csv,.csv,74922,问题2正式数值结果,"1856行×7列；字段=glass_type,artifact_i,artifact_j,co_cluster_frequency,n_joint_resamples,k,stable_subclass_supported",问题2
+results/02_q2/q2_2_r_clusters.csv,.csv,2520,问题2正式数值结果,"25行×7列；字段=glass_type,variable_cluster,component,representative_flag,detection_rate,robust_mad,selection_reason",问题2
+results/02_q2/q2_2_sensitivity.csv,.csv,845,问题2正式数值结果,"16行×6列；字段=scenario,glass_type,k,ari_vs_main,feature_jaccard,conclusion",问题2
+results/02_q2/q2_2_subclass_profiles.csv,.csv,11751,问题2正式数值结果,"106行×9列；字段=glass_type,subclass_label,component,center_pct,median_pct,q25_pct,q75_pct,n_artifacts,stable_subclass_supported",问题2
+results/02_q2/q2_2_subclasses.csv,.csv,5434,问题2正式数值结果,"56行×10列；字段=artifact_id,glass_type,subclass_label,exploratory_label,selected_k,stable_subclass_supported,assignment_frequency,second_best_frequency,boundary_flag,n_points",问题2
+results/03_q3/q3_applicability.csv,.csv,1023,问题3冻结外推结果,"8行×8列；字段=unknown_id,nearest_artifact_id,nearest_distance,nearest_same_predicted_class_distance,robust_mahalanobis,threshold,robust_threshold,flag",问题3
+results/03_q3/q3_bootstrap_predictions.csv,.csv,366979,问题3冻结外推结果,"8000行×7列；字段=iteration,unknown_id,model,probability,label,fit_success,failure_reason",问题3
+results/03_q3/q3_frozen_manifest_check.json,.json,1131,问题3冻结外推结果,UTF-8 JSON元数据/审计,问题3
+results/03_q3/q3_sensitivity.csv,.csv,4826,问题3冻结外推结果,"64行×6列；字段=scenario,unknown_id,probability,label,delta_probability,label_changed",问题3
+results/03_q3/q3_unknown_predictions.csv,.csv,2180,问题3冻结外推结果,"8行×19列；字段=unknown_id,weathering,main_model,tendency_label,probability_lead_barium,prob_ci_low,prob_ci_high,cart_label,lda_label,logistic_label,bootstrap_majority_frequency,domain_distance…",问题3
+results/04_q4/q4_bootstrap_failures.csv,.csv,4695,问题4网络结果,"84行×3列；字段=glass_type,iteration,reason",问题4
+results/04_q4/q4_differential_edges.csv,.csv,8143,问题4网络结果,"45行×13列；字段=component_j,component_k,rho_high_k,rho_lead_barium,delta,delta_ci_low,delta_ci_high,permutation_p,p_fdr,effect_pass,direction_frequency,core_differential_edge…",问题4
+results/04_q4/q4_edges_by_type.csv,.csv,13067,问题4网络结果,"100行×10列；字段=glass_type,component_j,component_k,variation_logratio,rho_p,ci_low,ci_high,selection_frequency,direction_frequency,core_edge",问题4
+results/04_q4/q4_network_stability.csv,.csv,98747,问题4网络结果,"2002行×7列；字段=scenario_or_iteration,glass_type,edge_count,density,jaccard_vs_main,failed,failure_reason",问题4
+results/04_q4/q4_nodes.csv,.csv,1574,问题4网络结果,"28行×6列；字段=glass_type,component,detection_rate,missing_rate,active_main,exclusion_reason",问题4
+results/04_q4/q4_partial_correlation_baseline.csv,.csv,9954,问题4网络结果,"100行×7列；字段=glass_type,component_j,component_k,partial_corr,shrinkage_parameter,ci_low,ci_high",问题4
+results/04_q4/q4_sensitivity.csv,.csv,788,问题4网络结果,"14行×6列；字段=scenario,edge_type,retained_core_edges,edge_jaccard,sign_agreement,conclusion_grade",问题4
+results/04_q4/q4_weather_adjusted_edges.csv,.csv,6138,问题4网络结果,"100行×7列；字段=glass_type,component_j,component_k,rho_raw,rho_adjusted,direction_same,selection_frequency_adjusted",问题4
+results/99_summary/claim_evidence.csv,.csv,5248,跨问题证据与灵敏度汇总,"18行×13列；字段=claim_id,task_id,claim_text_placeholder,evidence_file,evidence_filter,estimate_field,interval_field,sample_unit,validation_protocol,sensitivity_status,stability_status,allowed_wording…",第9/11节
+results/99_summary/method_four_part_evidence.csv,.csv,12546,跨问题证据与灵敏度汇总,"32行×16列；字段=task_id,method_id,method_name,method_role,paragraph_role,evidence_file,evidence_fields,sample_unit,data_version,comparison_protocol,error_metric,sensitivity_scenario…",第9/11节
+results/99_summary/run_summary.json,.json,308,跨问题证据与灵敏度汇总,UTF-8 JSON元数据/审计,第9/11节
+results/99_summary/sensitivity_master.csv,.csv,342114,跨问题证据与灵敏度汇总,"2697行×11列；字段=task,scenario,model,metric_or_claim,main_value,scenario_value,absolute_change,relative_change,sign_or_label_changed,conclusion_grade,source_file",第9/11节

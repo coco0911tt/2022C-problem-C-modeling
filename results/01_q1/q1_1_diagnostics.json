@@ -1,0 +1,13 @@
+{
+  "reference_levels": {
+    "glass_type": "铅钡",
+    "pattern": "A",
+    "color": "未知"
+  },
+  "estimator": "statsmodels_GLM_binomial",
+  "converged": true,
+  "iterations": 23,
+  "condition_number": 15.89113861271427,
+  "warnings": [],
+  "fallback_used": false
+}

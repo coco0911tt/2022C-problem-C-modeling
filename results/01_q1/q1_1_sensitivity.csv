@@ -1,0 +1,6 @@
+﻿scenario,term_or_attribute,estimate,p_or_interval,sign_consistent,leave_one_out_range,n_artifacts
+color_unknown_level,color,0.15058326642775174,0.31716828317168283,1,0--0.241437,58
+color_complete_case,color,0.0,0.5873412658734126,1,0--0.139325,54
+rare_color_merged,color,0.0,0.658934106589341,1,0--0.0819864,58
+leave_one_artifact_out,glass_type,0.32076261543731194,,1,0.297425--0.354731,58
+leave_one_artifact_out,pattern,0.22642715760942025,,1,0.197412--0.241171,58

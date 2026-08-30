@@ -1,0 +1,4 @@
+﻿model,fit_repeat,evaluation_repeats,raw_brier,calibrated_brier,brier_improvement,raw_balanced_accuracy,calibrated_balanced_accuracy,balanced_accuracy_change,raw_threshold,frozen_threshold,calibration_enabled,decision_rule,reason
+CART,0,1-19,0.16008426232953707,0.15059589800385176,0.009488364325685311,0.7542763157894736,0.7542763157894736,0.0,0.5,0.5,0,Brier improvement >= 0.01 and BA decrease <= 0.01,disabled_gate_not_met
+LDA,0,1-19,0.13199287379778127,0.12731808765755445,0.0046747861402268165,0.7796052631578947,0.7796052631578947,0.0,0.5,0.5,0,Brier improvement >= 0.01 and BA decrease <= 0.01,disabled_gate_not_met
+Logistic,0,1-19,0.14803963318204258,0.14156322894728363,0.0064764042347589534,0.781578947368421,0.781578947368421,0.0,0.5,0.5,0,Brier improvement >= 0.01 and BA decrease <= 0.01,disabled_gate_not_met

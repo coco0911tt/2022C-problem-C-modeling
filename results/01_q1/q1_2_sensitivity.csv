@@ -1,0 +1,11 @@
+﻿scenario,glass_type,effect_norm,direction_agreement,key_component_agreement,conclusion_grade,fit_success,failure_reason
+zero_c_0.25,高钾,2.7651006560273057,1.0,1.0,stable,1,
+zero_c_0.5,高钾,2.7440837777689344,1.0,1.0,stable,1,
+zero_c_0.75,高钾,2.732455842271364,1.0,1.0,stable,1,
+include_invalid_15_17,高钾,2.6613446434212085,0.9,0.9,stable,1,
+all_points_inherit_artifact_weathering,高钾,2.7440837777689344,1.0,1.0,stable,1,
+zero_c_0.25,铅钡,1.9422400470497325,1.0,1.0,stable,1,
+zero_c_0.5,铅钡,1.9422400470497325,1.0,1.0,stable,1,
+zero_c_0.75,铅钡,1.9422400470497325,1.0,1.0,stable,1,
+include_invalid_15_17,铅钡,1.9422400470497325,1.0,1.0,stable,1,
+all_points_inherit_artifact_weathering,铅钡,1.6851884205039536,0.9230769230769231,0.9230769230769231,stable,1,
